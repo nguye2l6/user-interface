@@ -1,0 +1,33 @@
+
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+.main {
+    width:500px;
+    margin: auto;
+}
+
+.logs {
+    max-width: 500px; 
+}
+
+.customcard input {
+    height:10px;
+}
+
+.customcard {
+    background-color: #d2f8d2;
+}
+
+.loginput {
+    align-items: center;
+}
+
+.buttonDialog {
+    background-color: #d2f8d2;
+    border-radius: 10px;
+}
+
+.buttonDialog Button {
+    border-radius: 10px;
+}
