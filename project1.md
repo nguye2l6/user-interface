@@ -4,7 +4,7 @@ The goal of this project is going through the design process of creating a track
 
 ## Design work-
 ### Interviewing
-
+Before implementing the application, it would be useful to garner what potential users would want out of an application through interviews
 #### What do you hope to learn from these interviews? 
 #### What questions did you ask?
 #### What did your interview participants tell you?  What did you learn from them?
