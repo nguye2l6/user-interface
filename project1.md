@@ -63,11 +63,11 @@ On an entry component, there are also goals that each entry can fulfill. In the 
 Goals are implemented as bounded variables and can also be changed. In order to change goals click the Change Goals button next to Daily Log. The picture below shoes the change goals and corresponding modal box that pops up when it is clicked. The modal references the bounded goal variables
 and applies changes to them when the save goal is pressed.
 
-<img width="449" height="505" alt="image" src="https://github.com/user-attachments/assets/eab532fc-f669-4c36-8e7b-da242e60880b" />
-
-
+<img width="497" height="537" alt="image" src="https://github.com/user-attachments/assets/5f1a15c9-53da-4a34-b22b-e23b6eea0c68" />
 
 #### Submission
+
+Once the current entry is filled
 ### Stats Page
 
 #### Entry Statistics
@@ -86,7 +86,7 @@ and applies changes to them when the save goal is pressed.
 - Themes: Allow users to pick different colors for the app menus. This would be accomplished by binding the current hex values to a variable that can be changed.
 - Modify/Remove Entries: Let users be able to change what they want to record. Make a list of entries such as \[heartrate,integer},{bloodpressure,integer},{mood,color}] and use a foreach in svelte to dynamically create entries.
 - Data Sync: Upload data from recording apps,smart devices. Use the IOS Health App API to retrieve biometric information which can be stored in the app as an enttry.
-- 
+- Data validation: There are currently no restriction to entry information other than data type. In order for data security and consistency, inputs should be excluded if they aren't reasonable or are invalid. This can be accomplished by executing variable checks on entry information before it is saved onto the data entries list.
 
 ## Include a 2-3 minute demo video, showing your interface in action. 
 The easiest way to record this is with a screen capture tool, which also captures audio- such as Quicktime.  Use a voiceover to explain your application.  Include the name of the project, your name, the project components, and how your application works.  You can present it on your webpage or on youtube, but it must be linked on your webpage. 
