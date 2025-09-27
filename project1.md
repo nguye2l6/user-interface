@@ -55,6 +55,13 @@ On the health page, the current entry can be inputted and eventually saved to th
 
 <img width="395" height="692" alt="image" src="https://github.com/user-attachments/assets/cfae77c3-0751-49a1-9c3c-c762e62a8801" />
 
+#### Widgets
+
+For some entries, there are visual components as shown below:
+<img width="391" height="215" alt="image" src="https://github.com/user-attachments/assets/cc826a59-6314-4946-bc9c-b152fe947e55" />
+
+The circle represents how close to the goal the current entry is. This was implemented as a svg component which is modified from Svelte Circle Progress Bar Tutorial [https://svelte.dev/playground/f1437286b08d4890b9207180868ee37e?version=5.39.6]
+
 #### Goals
 
 On an entry component, there are also goals that each entry can fulfill. In the bottom right of the picture below, the goal is 150 while the current entry is only 140.
@@ -67,10 +74,19 @@ and applies changes to them when the save goal is pressed.
 
 #### Submission
 
-Once the current entry is filled
+Once the current entry is filled, the entry can be submitted to the entry list. This process is highlighted by red circles below: click the submit entry button, and acknowledge your change.
+
+<img width="632" height="535" alt="image" src="https://github.com/user-attachments/assets/83df4091-4a6d-40b2-a9bb-b655c9bd5bc8" />
+
+There was difficulty transferring information from the home page to the stats page because the stats page is where the entries list is saved. This was mitigated by having a store component that both pages share from. The current entry is saved into the store and accessed by the
+stats page to populate the entries list.
+
 ### Stats Page
 
 #### Entry Statistics
+
+With all the information in order, the stats page serves as a way to modify previous entries and view derived statistics from the entries.
+
 <img width="197" height="317" alt="image" src="https://github.com/user-attachments/assets/d033b305-4b84-4806-be55-9f362fe96ab7" />
 #### Previous Entries
 
