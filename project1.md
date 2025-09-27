@@ -116,7 +116,7 @@ Once the previous entry is modified accordingly, the update entry button can be 
 
 ## Use of AI
 
-ChatGPT was used as a documentation lookup tool for bootstrap 5. It provided boiler plate code on how to do something like make rows and columns, but no significant portion of code was directly copied from GPT-5 to the source code. It simply served as a way for me to look up Bootstrap 5 documentation and tutorials more quickly.
+ChatGPT was used as a documentation lookup tool for bootstrap 5. It provided boiler plate code on how to do something like make rows and columns, but no significant portion of code was directly copied from GPT-5 to the source code. 
 
 ## Include a 2-3 minute demo video, showing your interface in action. 
 
