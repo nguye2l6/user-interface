@@ -85,16 +85,21 @@ stats page to populate the entries list.
 
 #### Entry Statistics
 
-With all the information in order, the stats page serves as a way to modify previous entries and view derived statistics from the entries.
+With all the information in order, the stats page serves as a way to modify previous entries and view derived statistics from the entries. The figure below shows such derived stats such as total number of steps and heart rate averages. These stats are bounded variables that are calculated in a function everytime the page is loaded or a previous entry is modified.
 
 <img width="197" height="317" alt="image" src="https://github.com/user-attachments/assets/d033b305-4b84-4806-be55-9f362fe96ab7" />
 #### Previous Entries
 
-
-<img width="206" height="236" alt="image" src="https://github.com/user-attachments/assets/afbbd2ee-8326-495d-ba51-127007763087" />
+If one needed to modify their previous entry, they would scroll down to the bottom of the stats page to the previous entries section. These entries are organized by date. This was accomplished by having a for each statement in svelte that iterates over entries,grabs the date, and puts them
+into a selection tag. The information such as steps, active time, and heart rate are bound variables that change when the dropdown select is changed in order to reflect the correct entry.
 
 <img width="392" height="235" alt="image" src="https://github.com/user-attachments/assets/e5a3ff5b-5621-4ab6-8e81-ce1534504c7c" />
 
+<img width="206" height="236" alt="image" src="https://github.com/user-attachments/assets/afbbd2ee-8326-495d-ba51-127007763087" />
+
+
+
+Once the previous entry is modified accordingly, the update entry button can be selected which pops up the corresponding modal. Once this occurs, the stats up top are also updated.
 
 <img width="203" height="74" alt="image" src="https://github.com/user-attachments/assets/24bc1b44-4317-455a-b0b9-69fc8bd420c9" />
 
