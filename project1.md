@@ -1,6 +1,13 @@
 # Project 1: Recording the Journey
+
+The goal of this project is going through the design process of creating a tracking application that addresses users needs. In particular, the tracking metrics are focused on cardio/health related processes. Currently, the application allows users to track their weight, heartrate, number of steps, and times of activity.
+
 ## Design work-
 ### Interviewing
+
+#### What do you hope to learn from these interviews? 
+#### What questions did you ask?
+#### What did your interview participants tell you?  What did you learn from them?
 ### Sketching
 ### Feedback
 ## Describe your interface in detail:
