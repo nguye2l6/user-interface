@@ -2,14 +2,34 @@
 
 The goal of this project is going through the design process of creating a tracking application that addresses users needs. In particular, the tracking metrics are focused on cardio/health related processes. Currently, the application allows users to track their weight, heartrate, number of steps, and times of activity.
 
+designed for samsung galaxy s20 ultra view from google chrome developer menu 
+
 ## Design work-
 ### Interviewing
-Before implementing the application, it would be useful to garner what potential users would want out of an application through interviews
 #### What do you hope to learn from these interviews? 
+Prior to implementing and designing the application, useful things to learn is the modality that users prefer tracking, how often they track, and how detailied they would want to track their information.
 #### What questions did you ask?
+
+
 #### What did your interview participants tell you?  What did you learn from them?
+
+
+
 ### Sketching
+For sketching, there were three general phases, 10 minutes of preliminary sketches, 10 minutes of refinement, and continously work on final sketch.
+
+Preliminary Sketches
+<img width="4417" height="2628" alt="image" src="https://github.com/user-attachments/assets/32631128-70f7-48df-ab9c-410549c030dc" />
+
+Refinement Sketches
+<img width="1152" height="648" alt="image" src="https://github.com/user-attachments/assets/decfec00-5833-4522-b800-412295190cd6" />
+
+Final Sketch
+
 ### Feedback
+Feedback 1: Sketching
+
+
 ## Describe your interface in detail:
 Explain the features and controls
 Include plenty of screenshots to illustrate your interface and different actions users can perform within it
