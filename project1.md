@@ -1,8 +1,8 @@
 # Project 1: Recording the Journey
 
-The goal of this project is going through the design process of creating a tracking application that addresses users needs. In particular, the tracking metrics are focused on cardio/health related processes. Currently, the application allows users to track their weight, heartrate, number of steps, and times of activity.
+Project 1 introduces a mobile tracking "app" that allows users to record information about their cardio health. In its current iteration, weight, heartrate, number of steps, and times of activity are the existing trackable metrics. With the app, users will be able to keep track as their information via "entries" and able to visualize statistics derived from these entries. Additionally, users are able to set goals for their metrics and control.
 
-designed for samsung galaxy s20 ultra view from google chrome developer menu 
+The goal of this project is going through the design process of creating a tracking application that addresses users needs. The app is built using Sveltekit and Bootstrap 5. Currently, the UI is designed to be viewed specifically on Samsung Galaxy S20 Ultra, which can be simulated through Google Chrome's developer tools.
 
 ## Design work-
 ### Interviewing
