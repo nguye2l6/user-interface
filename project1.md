@@ -36,8 +36,11 @@ Final Sketch
 
 
 ### Feedback
-Feedback 1: Sketching
-
+Feedback
+- The side navbar might be accidently clicked if you are trying to click an input on your phone. Thus, I made the navbar at the top and static so that it wasn't always present.
+- Page layout isn't fluid, for example daily log and weekly stats stick out in an awkward way. Play around with fonts, sizing, background color to make sections more distinct
+- Its not clear what page you are on, maybe highlight the current navbar icon you are on.
+- Entries are generic and look the same, maybe use on entry box or make them more specific. For example, have a footsteps icon next to steps entry.
 
 ## Describe your interface in detail:
 
@@ -88,6 +91,7 @@ stats page to populate the entries list.
 With all the information in order, the stats page serves as a way to modify previous entries and view derived statistics from the entries. The figure below shows such derived stats such as total number of steps and heart rate averages. These stats are bounded variables that are calculated in a function everytime the page is loaded or a previous entry is modified.
 
 <img width="197" height="317" alt="image" src="https://github.com/user-attachments/assets/d033b305-4b84-4806-be55-9f362fe96ab7" />
+
 #### Previous Entries
 
 If one needed to modify their previous entry, they would scroll down to the bottom of the stats page to the previous entries section. These entries are organized by date. This was accomplished by having a for each statement in svelte that iterates over entries,grabs the date, and puts them
@@ -108,9 +112,17 @@ Once the previous entry is modified accordingly, the update entry button can be 
 - Modify/Remove Entries: Let users be able to change what they want to record. Make a list of entries such as \[heartrate,integer},{bloodpressure,integer},{mood,color}] and use a foreach in svelte to dynamically create entries.
 - Data Sync: Upload data from recording apps,smart devices. Use the IOS Health App API to retrieve biometric information which can be stored in the app as an enttry.
 - Data validation: There are currently no restriction to entry information other than data type. In order for data security and consistency, inputs should be excluded if they aren't reasonable or are invalid. This can be accomplished by executing variable checks on entry information before it is saved onto the data entries list.
+- More visuals: the daily log visual was something I wanted to expand more upon but was unable due to time constraints. The svg code of such visual can be improved upon and incorporated into more aspects such as the stats page.
+
+## Use of AI
+
+ChatGPT was used as a documentation lookup tool for bootstrap 5. It provided boiler plate code on how to do something like make rows and columns, but no significant portion of code was directly copied from GPT-5 to the source code. It simply served as a way for me to look up Bootstrap 5 documentation and tutorials more quickly.
 
 ## Include a 2-3 minute demo video, showing your interface in action. 
-The easiest way to record this is with a screen capture tool, which also captures audio- such as Quicktime.  Use a voiceover to explain your application.  Include the name of the project, your name, the project components, and how your application works.  You can present it on your webpage or on youtube, but it must be linked on your webpage. 
+
+Note that the steps stat was incorrect after updating previous entries due to incorrect logic during the calculation function. This was because the variable specific to steps wasn't reset back to 0. The other stats were correct.
+[youtube.com/watch?v=UX1mZMWV0Do&feature=youtu.be]
+
 ## Include a link to your source code on github and a link to the publicly hosted application.
 Publicly Hosted Link: [https://ui-project-one-pink.vercel.app]
 
