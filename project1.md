@@ -6,14 +6,21 @@ designed for samsung galaxy s20 ultra view from google chrome developer menu
 
 ## Design work-
 ### Interviewing
+
+I interviewed two people
+- Someone who goes to the gym regularly
+- Someone who plays pickleball and runs
 #### What do you hope to learn from these interviews? 
 Prior to implementing and designing the application, useful things to learn is the modality that users prefer tracking, how often they track, and how detailied they would want to track their information.
 #### What questions did you ask?
-
+- How often do you track your cardio health, for example, running, heartrate, and steps?
+- What do you use to track your information?
+- Whats something you don't like about tracking your health?
 
 #### What did your interview participants tell you?  What did you learn from them?
-
-
+- Preferred Modality is Phone => my application should be designed for mobile view
+- They track more than 3 times a week => The entries should be organized by days but allowed to be sparse
+- They don't spend alot of time tracking => The entries should be quick and short
 
 ### Sketching
 For sketching, there were three general phases, 10 minutes of preliminary sketches, 10 minutes of refinement, and continously work on final sketch.
@@ -26,11 +33,40 @@ Refinement Sketches
 
 Final Sketch
 
+<img width="1638" height="1186" alt="image" src="https://github.com/user-attachments/assets/a5b776c1-aa5c-46e6-957b-3b58f36b5c10" />
+
+
 ### Feedback
 Feedback 1: Sketching
 
 
 ## Describe your interface in detail:
+
+The interface has to main pages, the health page(denoted by the heart) and the stats page(denoted by the three line icon)
+
+### Health Page
+
+#### Entries
+
+<img width="404" height="801" alt="image" src="https://github.com/user-attachments/assets/fb972e6e-c1b0-4b45-90fd-18b2d2cb6893" />
+
+#### Goals
+
+#### Submission
+### Stats Page
+
+#### Entry Statistics
+<img width="197" height="317" alt="image" src="https://github.com/user-attachments/assets/d033b305-4b84-4806-be55-9f362fe96ab7" />
+#### Previous Entries
+
+
+<img width="206" height="236" alt="image" src="https://github.com/user-attachments/assets/afbbd2ee-8326-495d-ba51-127007763087" />
+
+<img width="392" height="235" alt="image" src="https://github.com/user-attachments/assets/e5a3ff5b-5621-4ab6-8e81-ce1534504c7c" />
+
+
+<img width="203" height="74" alt="image" src="https://github.com/user-attachments/assets/24bc1b44-4317-455a-b0b9-69fc8bd420c9" />
+
 Explain the features and controls
 Include plenty of screenshots to illustrate your interface and different actions users can perform within it
 Explain how you implemented this application (libraries, code structure....)
