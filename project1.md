@@ -72,7 +72,7 @@ Include plenty of screenshots to illustrate your interface and different actions
 Explain how you implemented this application (libraries, code structure....)
 ## Future work-
 - Themes: Allow users to pick different colors for the app menus. This would be accomplished by binding the current hex values to a variable that can be changed.
-- Modify/Remove Entries: Let users be able to change what they want to record. Make a list of entries such as [\ heartrate,integer},{bloodpressure,integer},{mood,color}] and use a foreach in svelte to dynamically create entries.
+- Modify/Remove Entries: Let users be able to change what they want to record. Make a list of entries such as \[heartrate,integer},{bloodpressure,integer},{mood,color}] and use a foreach in svelte to dynamically create entries.
 
 ## Include a 2-3 minute demo video, showing your interface in action. 
 The easiest way to record this is with a screen capture tool, which also captures audio- such as Quicktime.  Use a voiceover to explain your application.  Include the name of the project, your name, the project components, and how your application works.  You can present it on your webpage or on youtube, but it must be linked on your webpage. 
