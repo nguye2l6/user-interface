@@ -70,7 +70,10 @@ The interface has to main pages, the health page(denoted by the heart) and the s
 Explain the features and controls
 Include plenty of screenshots to illustrate your interface and different actions users can perform within it
 Explain how you implemented this application (libraries, code structure....)
-## Future work- No project is ever fully done. What would you do next?  This is also a place to discuss the work you attempted but could not fully complete before the project deadline- include screenshots to illustrate and document your progress. 
+## Future work-
+- Themes: Allow users to pick different colors for the app menus. This would be accomplished by binding the current hex values to a variable that can be changed.
+- Modify/Remove Entries: Let users be able to change what they want to record. Make a list of entries such as [\ heartrate,integer},{bloodpressure,integer},{mood,color}] and use a foreach in svelte to dynamically create entries.
+
 ## Include a 2-3 minute demo video, showing your interface in action. 
 The easiest way to record this is with a screen capture tool, which also captures audio- such as Quicktime.  Use a voiceover to explain your application.  Include the name of the project, your name, the project components, and how your application works.  You can present it on your webpage or on youtube, but it must be linked on your webpage. 
 ## Include a link to your source code on github and a link to the publicly hosted application.
