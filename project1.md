@@ -32,7 +32,6 @@ Refinement Sketches
 <img width="1152" height="648" alt="image" src="https://github.com/user-attachments/assets/decfec00-5833-4522-b800-412295190cd6" />
 
 Final Sketch
-
 <img width="1638" height="1186" alt="image" src="https://github.com/user-attachments/assets/a5b776c1-aa5c-46e6-957b-3b58f36b5c10" />
 
 
@@ -43,14 +42,30 @@ Feedback 1: Sketching
 ## Describe your interface in detail:
 
 The interface has to main pages, the health page(denoted by the heart) and the stats page(denoted by the three line icon)
+<img width="442" height="300" alt="image" src="https://github.com/user-attachments/assets/7be2e6aa-f7cc-4676-9973-cd37746cfc81" />
 
 ### Health Page
 
 #### Entries
+Entries are the underlying data structure that allow the app to work. Entries are stored in a list, where each entry is an item containing metrics such as heartrate,weight,etc..
 
 <img width="404" height="801" alt="image" src="https://github.com/user-attachments/assets/fb972e6e-c1b0-4b45-90fd-18b2d2cb6893" />
 
+On the health page, the current entry can be inputted and eventually saved to the list of all entries. As one can see below, the four green boxes each show a different component of an entry. Some entries are purely numerical while others can be dates and etc.. 
+
+<img width="395" height="692" alt="image" src="https://github.com/user-attachments/assets/cfae77c3-0751-49a1-9c3c-c762e62a8801" />
+
 #### Goals
+
+On an entry component, there are also goals that each entry can fulfill. In the bottom right of the picture below, the goal is 150 while the current entry is only 140.
+<img width="395" height="184" alt="image" src="https://github.com/user-attachments/assets/33a3a199-1673-4358-b72e-35dfc8133b95" />
+
+Goals are implemented as bounded variables and can also be changed. In order to change goals click the Change Goals button next to Daily Log. The picture below shoes the change goals and corresponding modal box that pops up when it is clicked. The modal references the bounded goal variables
+and applies changes to them when the save goal is pressed.
+
+<img width="449" height="505" alt="image" src="https://github.com/user-attachments/assets/eab532fc-f669-4c36-8e7b-da242e60880b" />
+
+
 
 #### Submission
 ### Stats Page
@@ -67,12 +82,11 @@ The interface has to main pages, the health page(denoted by the heart) and the s
 
 <img width="203" height="74" alt="image" src="https://github.com/user-attachments/assets/24bc1b44-4317-455a-b0b9-69fc8bd420c9" />
 
-Explain the features and controls
-Include plenty of screenshots to illustrate your interface and different actions users can perform within it
-Explain how you implemented this application (libraries, code structure....)
 ## Future work-
 - Themes: Allow users to pick different colors for the app menus. This would be accomplished by binding the current hex values to a variable that can be changed.
 - Modify/Remove Entries: Let users be able to change what they want to record. Make a list of entries such as \[heartrate,integer},{bloodpressure,integer},{mood,color}] and use a foreach in svelte to dynamically create entries.
+- Data Sync: Upload data from recording apps,smart devices. Use the IOS Health App API to retrieve biometric information which can be stored in the app as an enttry.
+- 
 
 ## Include a 2-3 minute demo video, showing your interface in action. 
 The easiest way to record this is with a screen capture tool, which also captures audio- such as Quicktime.  Use a voiceover to explain your application.  Include the name of the project, your name, the project components, and how your application works.  You can present it on your webpage or on youtube, but it must be linked on your webpage. 
